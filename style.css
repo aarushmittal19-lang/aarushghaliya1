@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+  background-size: 1000px;
+  background-position: center;
+}
+
+/* BASE PAPER */
+.paper {
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg");
+  background-size: 500px;
+  background-position: center;
+
+  padding: 20px 100px;
+  position: absolute;
+  transform: rotate(-5deg);
+
+  box-shadow: 1px 15px 20px rgba(0,0,0,0.5);
+}
+
+/* SMALL VALENTINE PAPER */
+.title-paper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+
+  padding: 15px 40px;
+  max-width: 320px;
+}
+
+.title-paper p {
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+/* IMAGE PAPERS */
+.paper.image {
+  padding: 10px;
+}
+
+.paper.image p {
+  font-size: 30px;
+}
+
+/* IMAGES */
+img {
+  max-height: 200px;
+  width: 100%;
+  user-select: none;
+}
+
+/* TEXT */
+p {
+  font-family: 'Zeyada', cursive;
+  font-size: 50px;
+  color: rgb(0, 0, 100);
+  opacity: 0.75;
+  user-select: none;
+}
+
+/* RED PAPER TEXT */
+.paper.red p {
+  color: rgb(180, 0, 0);
+}
+.paper.red p {
+  font-size: 32px;     /* smaller text */
+  line-height: 1.2;   /* closer lines */
+}
+.paper.red img {
+  max-height: 180px;    /* photo height */
+  width: 100%;
+  object-fit: cover;   /* crops nicely */
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.paper.red {
+  padding: 15px 40px;   /* less empty space */
+  max-width: 380px;     /* crop width */
+}
+.paper.red img {
+  max-height: 180px;    /* photo height */
+  width: 100%;
+  object-fit: cover;   /* crops nicely */
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.paper.red p {
+  font-size: 32px;     /* smaller text */
+  line-height: 1.2;   /* closer lines */
+}
